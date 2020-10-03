@@ -1,0 +1,215 @@
+body{
+  margin:0;
+  font-size:1rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+p{
+  color:hsl(210, 10%, 33%);
+  color:hsl(201, 11%, 66%);
+  line-height: 2;
+  width:38rem;
+  margin: 1rem auto 1rem auto;
+}
+h2{
+  color: hsl(210, 10%, 33%);
+  font-size:2.5rem;
+  margin-bottom:0.5rem;
+}
+
+h3{
+  color: hsl(210, 10%, 33%);
+  font-size:2rem;
+  margin-bottom:0.5rem;
+}
+
+h4{
+  color: hsl(210, 10%, 33%);
+  font-size:1.5rem;
+  margin-bottom:0.5rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+
+.header-div{
+  text-align: center;
+  background-image:url('../images/desktop-header.png');
+  background-size: cover;
+  padding-bottom: 6rem;
+
+}
+
+.logo{
+  padding:5rem 0 3rem 0;
+  margin: 0rem auto 0rem auto;
+}
+.header-para{
+  font-size:1.2rem;
+}
+.mac-btn{
+  display: inline-block;
+  padding:1rem 1.5rem 1rem 1.5rem;
+  margin:1.5rem 1.5rem 1rem 1.5rem ;
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 50px;
+}
+
+.ios-btn{
+  display: inline-block;
+  padding:1rem 1.5rem 1rem 1.5rem;
+  margin:1.5rem 1.5rem 1rem 1.5rem ;
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 50px;
+}
+
+
+.middle-div{
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+
+.feature-row{
+  clear: both;
+  padding:5rem 0 0 0;
+}
+.computer-img{
+  width:62rem;
+}
+.comp-container{
+ float: left;
+ margin-right: 3rem;
+ margin-left: -3rem;
+}
+
+.feature-list-container{
+  text-align: left;
+  position: relative;
+  left:5rem;
+  top:7rem;
+}
+
+.feature-list{
+  list-style: none;
+}
+
+.feature-list li{
+  padding-bottom: 1rem;
+}
+
+.feature-list p{
+  width: 48rem;
+}
+
+.devices-img{
+  padding: 6rem 0 0 0;
+  margin: 0;
+  width: 80rem;
+}
+
+.tools-list{
+    list-style: none;
+    display: table;
+    padding-top: 5rem;
+    margin: 0 auto;
+
+}
+
+.tools-list-item {
+  display: table-cell;
+  padding-right: 3rem;
+
+}
+
+.tools-list-item p{
+  width: 20rem;
+
+}
+
+
+
+.sponsors-div{
+  padding-top: 10rem;
+
+
+}
+
+.sponsors-img{
+
+  padding: 0 6rem;
+}
+
+
+.motto-div{
+  padding: 8rem 0 4rem 0;
+}
+
+.available-para{
+  margin-bottom: 2rem;
+}
+
+
+.footer-div-wrapper{
+  padding: 2rem 0 5rem 0;
+  width: 100%;
+  background-color: Lightgray;
+}
+.footer-div{
+  text-align: center;
+  position: relative;
+}
+
+.footer-logo-div{
+   display: inline-block;
+   position: absolute;
+   top:0;
+   left:10rem;
+
+}
+.footer-logo{
+
+ width: 3rem;
+
+}
+
+.footer-links-div{
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    top:0;
+    left:50rem;
+    width: 23rem;
+
+}
+.footer-link{
+    padding: 1.4rem;
+
+      color: hsl(210, 10%, 33%);
+
+}
+.footer-link:visited{
+  padding: 1.4rem;
+
+    color: hsl(210, 10%, 33%);
+
+}
+.social-links-div{
+position: absolute;
+top:0;
+right:10rem;
+
+
+}
+
+.social-link{
+  padding: 1rem 1rem;
+}
